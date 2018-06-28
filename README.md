@@ -14,25 +14,25 @@ https://www.104.com.tw/2018hackathon/
     + 透過104的Job Search API取得職務和公司資訊
     + [Link](http://www.104.com.tw/i/api_doc/jobsearch/)
 * 104求職者去識別化行為記錄
-    + File: user_log.json
-    + Description：求職者在104網站上瀏覽應徵職務時的行為log
+    + File: train-action.json / train-click.json
+    + Description: 求職者在104網站上瀏覽應徵職務時的行為log
     + Date: 2018-05
     + [User Log Schema](data-schema/user_log_schema.md)
     + [User Log Sample](sample-data/user_log_sample.json)
-    + 實際資料集將另行公佈
+    + [資料集下載連結](2018-104-hackathon-dataset.md)
 * 公司與職務資料
     + 企業基本資料
-        - File: companies.json
+        - File: company.json
         - Decription: 資料集中所使用的公司資料
         - [Company Schema](data-schema/companies_schema.md)
         - [Company Sample](sample-data/companies_sample.json)
-        - 實際資料集將另行公佈
+        - [資料集下載連結](2018-104-hackathon-dataset.md)
     + 職務資料
-        - File: job_info.json
+        - File: job.json
         - Description: 每一筆職務的欄位資料與該職務的文字描述
         - [Job Info Schema](data-schema/job_info_schema.md)
         - [Job Info Sample](sample-data/job_info_sample.json)
-        - 實際資料集將另行公佈
+        - [資料集下載連結](2018-104-hackathon-dataset.md)
     + 類目資料
         - File:
             - 科系類目: department.csv [Sample](sample-data/department_sample.csv)
@@ -40,7 +40,7 @@ https://www.104.com.tw/2018hackathon/
             - 產業類目: industry.csv [Sample](sample-data/industry_sample.csv)
             - 職務類目: job_category.csv [Sample](sample-data/job_category_sample.csv)
         - Description: 在職務結構化欄位中的類目對照
-        - 實際資料集將另行公佈
+        - [資料集下載連結](2018-104-hackathon-dataset.md)
 
 ## 評分標準
 * 創新70%
